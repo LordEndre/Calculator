@@ -55,7 +55,7 @@ public class Main {
 				System.out.println(a + "*" + b + "=" + Multiplication.multiplicate(a, b));
 				}
 			
-		
+		 
 
 			// 60
 			// break main loop
