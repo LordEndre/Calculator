@@ -13,9 +13,9 @@ public class Main {
 		boolean run = true;
 		
 		System.out.println("Calculator");
+		//16
 		
-		
-		
+		//18
 		// main loop
 		while (run) {
 			
