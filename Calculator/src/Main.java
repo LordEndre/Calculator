@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Most epic calculator EVER!!
  */
 public class Main {
-	
+	//8
 	public static void main (String[] args) {
 		
 		// Input scanner
