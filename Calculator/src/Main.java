@@ -20,7 +20,7 @@ public class Main {
 			if(in==1) {
 				System.out.println("Enter the first number");
 				int a = scanner.nextInt();
-				System.out.println("Enter the first number");
+				System.out.println("Enter the second number");
 				int b = scanner.nextInt();
 				System.out.println(a + "+" + b + "=" + Addition.add(a, b));
 				}
