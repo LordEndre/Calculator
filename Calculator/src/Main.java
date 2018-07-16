@@ -5,9 +5,9 @@ import java.util.Scanner;
  * Most epic calculator EVER!!
  */
 public class Main {
-	
+	//8_
 	public static void main (String[] args) {
-		// 10
+		//10
 		// Input scanner
 		Scanner scanner = new Scanner(System.in);
 		boolean run = true;
