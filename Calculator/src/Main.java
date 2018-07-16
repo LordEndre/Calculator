@@ -14,6 +14,7 @@ public class Main {
 			
 			System.out.println("Press a number");
 			System.out.println("1, Add two numbers");
+			System.out.println("3, Multiplicate two numbers");
 			System.out.println("5, exit");
 			int in = scanner.nextInt();	
 			
@@ -24,7 +25,13 @@ public class Main {
 				int b = scanner.nextInt();
 				System.out.println(a + "+" + b + "=" + Addition.add(a, b));
 				}
-			
+			if(in==3) {
+				System.out.println("Enter the first number");
+				int a = scanner.nextInt();
+				System.out.println("Enter the second number");
+				int b = scanner.nextInt();
+				System.out.println(a + "*" + b + "=" + Multiplication.multiplicate(a, b));
+				}
 			
 			
 			
