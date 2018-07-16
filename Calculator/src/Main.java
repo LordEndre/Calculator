@@ -1,15 +1,20 @@
 import java.util.Scanner;
 
+/**
+ * @author lordendre
+ * Most epic calculator EVER!!
+ */
 public class Main {
 	
 	public static void main (String[] args) {
 		
+		// Input scanner
 		Scanner scanner = new Scanner(System.in);
 		boolean run = true;
 		
 		System.out.println("Calculator");
 		
-		
+		// main loop
 		while (run) {
 			
 			System.out.println("Press a number");
@@ -18,10 +23,10 @@ public class Main {
 			System.out.println("3, Multiplicate two numbers");
 
 			System.out.println("5, exit");
-			int in = scanner.nextInt();	
+			int in = scanner.nextInt();	  // asking for input
 
 			
-			
+			// addition
 			if(in==1) {
 				System.out.println("Enter the first number");
 				int a = scanner.nextInt();
@@ -30,7 +35,7 @@ public class Main {
 				System.out.println(a + "+" + b + "=" + Addition.add(a, b));
 				}
 
-			
+			// substraction
 			if(in==2) {
 				System.out.println("Enter the first number");
 				int a = scanner.nextInt();
@@ -39,7 +44,7 @@ public class Main {
 				System.out.println(a + "-" + b + "=" + Substraction.substract(a, b));
 				}
 			
-
+			// multiplication
 			if(in==3) {
 				System.out.println("Enter the first number");
 				int a = scanner.nextInt();
@@ -53,7 +58,7 @@ public class Main {
 		
 
 			
-			
+			// break main loop
 			if(in == 5) {
 				run = false;
 				break;
@@ -64,11 +69,11 @@ public class Main {
 			}
 		
 		
-		System.out.println("Goodbye :)");
-	
-		scanner.close();
+		System.out.println("Goodbye :)");		// nice message at the end
+		scanner.close();		// close input scanner
 		
 		}
 	
-
+	//////////////////////
+	// End of class
 	}
