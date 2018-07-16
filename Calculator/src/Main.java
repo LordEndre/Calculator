@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main (String[] args) {
-		
+		// 10
 		// Input scanner
 		Scanner scanner = new Scanner(System.in);
 		boolean run = true;
