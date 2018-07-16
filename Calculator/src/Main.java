@@ -9,6 +9,7 @@ public class Main {
 		
 		System.out.println("Calculator");
 		
+		//Meme man: How many layers of irony are you on?
 		
 		while (run) {
 			
@@ -20,7 +21,7 @@ public class Main {
 			System.out.println("5, exit");
 			int in = scanner.nextInt();	
 
-			
+			//Guy: Like 5 or 6 right now my dude
 			
 			if(in==1) {
 				System.out.println("Enter the first number");
@@ -49,7 +50,7 @@ public class Main {
 				}
 			
 
-
+			//Meme man: You're like a baby. Watch this:
 		
 
 			
@@ -63,7 +64,7 @@ public class Main {
 			
 			}
 		
-		
+			//Meme man: S U C C
 		System.out.println("Goodbye :)");
 	
 		scanner.close();
