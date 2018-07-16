@@ -14,9 +14,13 @@ public class Main {
 			
 			System.out.println("Press a number");
 			System.out.println("1, Add two numbers");
+			System.out.println("2, Substract two numbers");
 			System.out.println("3, Multiplicate two numbers");
+
 			System.out.println("5, exit");
 			int in = scanner.nextInt();	
+
+			
 			
 			if(in==1) {
 				System.out.println("Enter the first number");
@@ -25,6 +29,17 @@ public class Main {
 				int b = scanner.nextInt();
 				System.out.println(a + "+" + b + "=" + Addition.add(a, b));
 				}
+
+			
+			if(in==2) {
+				System.out.println("Enter the first number");
+				int a = scanner.nextInt();
+				System.out.println("Enter the second number");
+				int b = scanner.nextInt();
+				System.out.println(a + "-" + b + "=" + Substraction.substract(a, b));
+				}
+			
+
 			if(in==3) {
 				System.out.println("Enter the first number");
 				int a = scanner.nextInt();
@@ -33,6 +48,10 @@ public class Main {
 				System.out.println(a + "*" + b + "=" + Multiplication.multiplicate(a, b));
 				}
 			
+
+
+		
+
 			
 			
 			if(in == 5) {
