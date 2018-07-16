@@ -1,3 +1,4 @@
+
 /**
  * @author lordendre
  * Class responsicle for multiplicate a number with another. 
